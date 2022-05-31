@@ -8,7 +8,8 @@ import { cs } from '../utils'
 
 const katexSettings = {
   throwOnError: false,
-  strict: false
+  strict: false,
+  displayMode:true
 }
 
 export const Equation: React.FC<{
